@@ -19,3 +19,10 @@ div {
     margin: 20px;
     padding: 32px;
 }
+.cadastro {
+    background-color: gray;
+    color:black;
+    padding: 16px;   /* diminua o padding */
+    margin: 10px auto;    /* diminua a margem */
+    width: 400px;
+}
