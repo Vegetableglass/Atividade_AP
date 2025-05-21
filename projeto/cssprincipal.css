@@ -1,21 +1,62 @@
 body {
-    background-color: black;
+    background-color: white;
     font-family: Arial, sans-serif;
-    color: snow;
+    color: black;
     text-align: center;
 }
 header {
+    background-color: gray;
     text-align: center;
-    color: snow;
+    color: black;
+}
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 nav {
     text-align: center;
 }
 
 a {
-    color: snow;
+    color: black;
 }
 div {
     margin: 20px;
     padding: 32px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    color: greenyellow
+}
+
+th, td{
+    background-color: gray;
+    padding: 10px;
+    border: 5px solid greenyellow;
+}
+
+tr {
+    background-color: gray;
+}
+
+.aulas {
+    width: 30%;
+    margin: auto;
+}
+
+.aulas1 {
+
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    border: 1px solid black;
+    background-color: gray;
+    list-style-type: none;
+    padding: 20px;
 }
