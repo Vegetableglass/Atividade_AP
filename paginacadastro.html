@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de academia</title>
+     <link rel="stylesheet" href="csscadastro.css">
+</head>
+<body>
+    <header>
+      <h1>Cadastro de suas informações</h1>
+    </header>
+    <main>
+        <div class="cadastro">
+        <h2>Formulários</h2>
+        <form method="get" action="paginaobrigado.html" target="_blank">
+            <label>Nome:</label>
+              <br>
+              <input type="text" name="name" required>
+              <br>
+              <label>Email:</label>
+              <br>
+              <input type="email" name="email" required>
+              <br>
+               <label>Modalidades que mais gostou:</label>
+              <br>
+              <select name="Modalidades" required>
+                <option value="Nenhuma">Nenhuma</option>
+                <option value="Boxe">Boxe</option>
+                <option value="Jiu-jitsu">Jiu-jitsu</option>
+                <option value="Muay Thai">Muay Thai</option>
+                <option value="Zumba">Zumba</option>
+                <option value="Pilates">Pilates</option>
+              </select>
+              <br>
+              <label>Assunto:</label>
+              <br>
+              <select name="assunto" required>
+                <option value="Prefiro não enviar">Prefiro não enviar</option>
+                <option value="Sugestão">Sugestão</option>
+                <option value="Reclamação">Reclamação</option>
+                <option value="Elogio">Elogio</option>
+              </select>
+              <br>
+              <label>Mensagem:</label>
+              <br>
+              <textarea type="text" name="mensagem"></textarea>
+              <br>
+              <label>Concordo em enviar meus dados para este site.</label>
+              <br>
+              <input type="radio"name="termo" required>
+              <br>
+              <input type="reset" value="Limpar">
+              <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <div>
+      <button type="button" onclick="window.location.href='paginaprincipal.html'">Voltar</button>
+    </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Academia Fulano de Tal. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

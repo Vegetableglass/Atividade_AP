@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+header {
+    background-color: #1f1f1f;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+nav {
+    text-align: center;
+}
+
+a {
+    color: snow;
+}
+div {
+    margin: 20px;
+    padding: 32px;
+}
+.cadastro {
+    background-color: gray;
+    color:black;
+    padding: 16px;   /* diminua o padding */
+    margin: 10px auto;    /* diminua a margem */
+    width: 90%;
+    max-width: 400px;
+    border-radius: 12px;
+}
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 90%;
+    padding: 8px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: 1px solid 
+    border-radius: 3px;
+}
+button{
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+input[type="submit"],
+input[type="reset"],
+button {
+    padding: 15px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: gray
+    color: white   
+}
+footer{
+    background-color: #1f1f1f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+}
