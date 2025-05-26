@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
     background-color: white;
     font-family: Arial, sans-serif;
@@ -5,10 +10,14 @@ body {
     text-align: center;
 }
 header {
-    background-color: gray;
-    text-align: center;
-    color: black;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px; /* espaço interno opcional */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
+
 .titulo {
     display: flex;
     align-items: center;
@@ -67,4 +76,41 @@ footer{
     padding: 20px;
     text-align: center;
     padding: 50px; 
+}
+.logo-superior {
+  width: 350px;     /* ou o tamanho desejado */
+  height: auto;
+  display: block;
+}
+.grade-experiencias {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 10px;
+  justify-items: center;
+}
+
+.card-experiencia {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  max-width: 320px;
+  transition: transform 0.2s ease;
+}
+
+.card-experiencia:hover {
+  transform: translateY(-5px);
+}
+
+.card-experiencia img {
+  width: 100%;
+  height: 200px;
+}
+
+.card-experiencia p {
+  padding: 15px;
+  font-size: 16px;
+  color: #333;
 }
