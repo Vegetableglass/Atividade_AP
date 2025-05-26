@@ -1,12 +1,14 @@
 body {
-    background-color: white;
+    background-color: black;
     font-family: Arial, sans-serif;
-    color: black;
+    color: white;
     text-align: center;
 }
 header {
+    background-color: #1f1f1f;
     text-align: center;
-    color: black;
+    color: white;
+    padding: 20px;
 }
 nav {
     text-align: center;
@@ -18,4 +20,10 @@ a {
 div {
     margin: 20px;
     padding: 32px;
+}
+button {
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
 }

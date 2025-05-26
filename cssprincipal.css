@@ -59,4 +59,12 @@ tr {
     background-color: gray;
     list-style-type: none;
     padding: 20px;
+    border-radius: 10px;
+}
+footer{
+    background-color: #1f1f1f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    padding: 50px; 
 }
