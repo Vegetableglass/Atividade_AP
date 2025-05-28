@@ -20,13 +20,18 @@
         <form method="get" action="paginaobrigado.html" target="_blank">
             <label>Nome:</label>
               <br>
-              <input type="text" name="name" required>
+              <input type="text" name="name" maxlength="32" required>
               <br>
               <label>Email:</label>
               <br>
-              <input type="email" name="email" required>
+              <input type="email" name="email" maxlength="32" required>
               <br>
-               <label>Modalidades que mais gostou:</label>
+              <label>Telefone:</label>
+              <br>
+              <input type="number" name="telefone" max="9999999999999" required>
+              <br>
+              <br>
+              <label>Modalidades que mais gostou:</label>
               <br>
               <select name="Modalidades" required>
                 <option value="Nenhuma">Nenhuma</option>
