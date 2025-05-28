@@ -28,7 +28,7 @@ button {
     margin: 5px;
     border-radius: 5px;
     background-color: gray;
-    color: black  
+    color: black
 }
 footer{
     background-color: #1f1f1f;
@@ -52,6 +52,7 @@ footer{
   text-align: center;
   max-width: 320px;
   transition: transform 0.2s ease;
+  border: 2px solid black
 }
 
 .card-creditos:hover {
