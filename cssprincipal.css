@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    color: black;
+    text-align: center;
+    background-image: url('Imagens/fundo2.png');
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+header {
+  width: 100%;
+  background-color: #1f1f1f;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  color: white
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+nav {
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+div {
+    margin: 20px;
+    padding: 32px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+
+th, td{
+    background-color: gray;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+tr {
+    background-color: gray;
+}
+
+.aulas {
+    width: 30%;
+    margin: auto;
+}
+
+.aulas1 {
+
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    border: 2px solid black;
+    background-color: gray;
+    list-style-type: none;
+    padding: 20px;
+    border-radius: 10px;
+}
+footer{
+    background-color: #1f1f1f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    padding: 50px; 
+}
+.logo-superior {
+  width: 350px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 20px;
+  display: block;
+}
+.grade-experiencias {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 10px;
+  justify-items: center;
+}
+
+.card-experiencia {
+  border: 2px solid #1f1f1f;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  max-width: 300px;
+  transition: transform 0.2s ease;
+}
+
+.card-experiencia:hover {
+  transform: translateY(-5px);
+}
+
+.card-experiencia img {
+  width: 100%;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.card-experiencia p {
+  padding: 15px;
+  font-size: 16px;
+  color: black;
+}
+.propaganda1 {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #1f1f1f;
+  color:white;
+  width: 500px;
+  text-align: center;
+  border: 5px solid gray;
+  border-radius: 5px;
+}
+.card-aulas {
+border: 2px;
+max-width: 300px;
+border-radius: 15px;
+text-align: center;
+border-radius: 15px;
+background-color: white;
+border: #1f1f1f solid 2px;
+box-shadow: 12px;
+}
+.grade-aulas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas fixas */
+  gap: 30px;
+  padding: 10px;
+  justify-items: center;
+}
+.card-aulas:hover {
+  transform: translateY(-5px);
+}
+.card-aulas img {
+  width: 100%;
+  height: 200px;
+  border-radius: 15px;
+}

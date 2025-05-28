@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    background-image: url('Imagens/fundo2.png');
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+header {
+    background-color: #1f1f1f;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+nav {
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+div {
+    margin: 20px;
+    padding: 32px;
+}
+button {
+    padding: 15px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: gray;
+    color: black  
+}
