@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+    background-color: #1f1f1f;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    background-image: url('Imagens/fundo2.png');
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+div {
+    margin: 20px;
+    padding: 32px;
+}
+button {
+    padding: 15px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: gray;
+    color: black
+}
+footer{
+    background-color: #1f1f1f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    padding: 50px; 
+}
+.creditos{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.card-creditos {
+  background: gray;
+  border-radius: 15px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  max-width: 320px;
+  transition: transform 0.2s ease;
+  border: 2px solid black
+}
+
+.card-creditos:hover {
+  transform: translateY(-5px);
+}
+
+.card-creditos img {
+  width: 100%;
+  height: 200px;
+}
+
+.card-creditos p {
+  padding: 15px;
+  font-size: 16px;
+  color: black;
+}
