@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-    background-color: white;
+    background-color: black;
     font-family: Arial, sans-serif;
     color: black;
     text-align: center;
@@ -15,7 +15,7 @@ body {
 }
 header {
   width: 100%;
-  background-color: #1f1f1f;
+  background-color: black;
   display: flex;
   align-items: center;
   padding: 10px 20px;
@@ -49,13 +49,13 @@ table {
 }
 
 th, td{
-    background-color: gray;
+    background-color: white;
     padding: 10px;
     border: 2px solid black;
 }
 
 tr {
-    background-color: gray;
+    background-color: white;
 }
 
 .aulas {
@@ -70,13 +70,13 @@ tr {
     margin-right: auto;
     color: black;
     border: 2px solid black;
-    background-color: gray;
+    background-color: white;
     list-style-type: none;
     padding: 20px;
     border-radius: 10px;
 }
 footer{
-    background-color: #1f1f1f;
+    background-color: black;
     color: white;
     padding: 20px;
     text-align: center;
@@ -98,8 +98,8 @@ footer{
 }
 
 .card-experiencia {
-  border: 2px solid #1f1f1f;
-  background: gray;
+  border: 2px solid white;
+  background: white;
   border-radius: 15px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -127,11 +127,11 @@ footer{
   border-collapse: collapse;
   margin-left: auto;
   margin-right: auto;
-  background-color: #1f1f1f;
+  background-color: black;
   color:white;
   width: 500px;
   text-align: center;
-  border: 5px solid gray;
+  border: 5px solid white;
   border-radius: 5px;
 }
 .card-aulas {
@@ -140,14 +140,14 @@ max-width: 300px;
 border-radius: 15px;
 text-align: center;
 border-radius: 15px;
-background-color: gray;
-border: #1f1f1f solid 2px;
+background-color: white;
+border: white solid 2px;
 box-shadow: 12px;
 transition: transform 0.2s ease;
 }
 .grade-aulas {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas fixas */
   gap: 30px;
   padding: 10px;
   justify-items: center;

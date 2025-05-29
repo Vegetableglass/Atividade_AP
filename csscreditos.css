@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 header {
-    background-color: #1f1f1f;
+    background-color: black;
     text-align: center;
     color: white;
     padding: 20px;
@@ -27,11 +27,11 @@ button {
     padding: 15px 15px;
     margin: 5px;
     border-radius: 5px;
-    background-color: gray;
+    background-color: white;
     color: black
 }
 footer{
-    background-color: #1f1f1f;
+    background-color: black;
     color: white;
     padding: 20px;
     text-align: center;
@@ -45,7 +45,7 @@ footer{
 }
 
 .card-creditos {
-  background: gray;
+  background: white;
   border-radius: 15px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   overflow: hidden;
