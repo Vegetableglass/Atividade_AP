@@ -14,7 +14,7 @@ body {
     background-repeat: no-repeat;
 }
 header {
-    background-color: #1f1f1f;
+    background-color: black;
     text-align: center;
     color: white;
     padding: 20px;
@@ -34,6 +34,6 @@ button {
     padding: 15px 15px;
     margin: 5px;
     border-radius: 5px;
-    background-color: gray;
+    background-color: white;
     color: black  
 }
